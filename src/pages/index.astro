@@ -1,0 +1,26 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>🧑‍🚀 Hello, Hyperskiller!</h1>
+			<p>
+				Welcome to the AI Tutors Examples Library! Here you can find examples of how to use the AI Tutors API to create interactive learning experiences.
+			</p>
+			<p>You can then edit the examples in the <code>src/content/examples</code> directory.</p>
+			<p>See the markdown style guide <a href="/blog/markdown-style-guide/">here</a>.</p>
+			<p>See the how to create a new page example <a href="/blog/how-to-create-new-page/">here</a>.</p>
+		</main>
+		<Footer />
+	</body>
+</html>
