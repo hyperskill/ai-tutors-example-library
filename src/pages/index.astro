@@ -1,5 +1,6 @@
 ---
 import BaseHead from '../components/BaseHead.astro';
+import AstroLink from '../components/AstroLink.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
@@ -18,8 +19,8 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 				Welcome to the AI Tutors Examples Library! Here you can find examples of how to use the AI Tutors API to create interactive learning experiences.
 			</p>
 			<p>You can then edit the examples in the <code>src/content/examples</code> directory.</p>
-			<p>See the markdown style guide <a href="https://hyperskill.github.io/ai-tutors-example-library/examples/markdown-style-guide/">here</a>.</p>
-			<p>See the how to create a new page example <a href="https://hyperskill.github.io/ai-tutors-example-library/examples/how-to-create-new-page/">here</a>.</p>
+			<p>See the markdown style guide <AstroLink href="/examples/markdown-style-guide/">here</AstroLink>.</p>
+			<p>See the how to create a new page example <AstroLink href="/examples/how-to-create-new-page/">here</AstroLink>.</p>
 		</main>
 		<Footer />
 	</body>
